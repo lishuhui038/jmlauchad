@@ -15,8 +15,7 @@ typedef void (^JMLaunchAdClickBlock)(void);
 
 typedef void (^JMSetLaunchAdBlock)(JMLaunchAdView * _Nullable launchAdView);
 
-typedef NS_ENUM(NSUInteger, JMSkipShowType)
-{
+typedef NS_ENUM(NSUInteger, JMSkipShowType) {
     JMSkipShowTypeNone = 0,       /** 无跳过 */
     JMSkipShowTypeDefault,        /** 跳过 + 倒计时*/
     JMSkipShowTypeAnimation,      /** 跳过 + 动画 */
@@ -44,9 +43,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  初始化启动页广告
- *  @param adDuration  停留时间
- *  @param showskiptype    是否隐藏跳过
- *  @param setLaunchAd launchAdView
+ *  @param adDuration         停留时间
+ *  @param showSkipType    是否隐藏跳过
+ *  @param setLaunchAd      launchAdView
  *  @return self
  */
 + (instancetype)initImageWithAttribute:(NSInteger)adDuration
@@ -55,9 +54,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  设置图片
- *  @param strURL       URL
+ *  @param strURL        URL
  *  @param options      图片缓冲模式
- *  @param result       UIImage *image, NSURL *url
+ *  @param result        UIImage *image, NSURL *url
  *  @param adClickBlock 点击图片回调
  */
 - (void)setWebImageWithURL:(NSString *)strURL
@@ -67,10 +66,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  *  设置动画跳过属性
- *  @param strokeColor     转动颜色
- *  @param lineWidth       宽度
+ *  @param strokeColor         转动颜色
+ *  @param lineWidth              宽度
  *  @param backgroundColor 背景色
- *  @param textColor       字体颜色
+ *  @param textColor               字体颜色
  */
 - (void)setAnimationSkipWithAttribute:(UIColor *)strokeColor
                             lineWidth:(NSInteger)lineWidth

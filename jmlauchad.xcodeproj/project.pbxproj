@@ -15,7 +15,7 @@
 		3C4B69B82499F5300082D522 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B69B72499F5300082D522 /* main.m */; };
 		3C4B69C22499F5300082D522 /* jmlauchadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B69C12499F5300082D522 /* jmlauchadTests.m */; };
 		3C4B69CD2499F5300082D522 /* jmlauchadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C4B69CC2499F5300082D522 /* jmlauchadUITests.m */; };
-		3C4B6A0D249A1A950082D522 /* JMLaunchAdFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4B6A0C249A1A950082D522 /* JMLaunchAdFramework.framework */; };
+		3C4B6A0F249A24390082D522 /* JMLaunchAdFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4B6A0E249A24390082D522 /* JMLaunchAdFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		3C4B69C82499F5300082D522 /* jmlauchadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jmlauchadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C4B69CC2499F5300082D522 /* jmlauchadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jmlauchadUITests.m; sourceTree = "<group>"; };
 		3C4B69CE2499F5300082D522 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C4B6A0C249A1A950082D522 /* JMLaunchAdFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JMLaunchAdFramework.framework; sourceTree = "<group>"; };
+		3C4B6A0E249A24390082D522 /* JMLaunchAdFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JMLaunchAdFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C4B6A0D249A1A950082D522 /* JMLaunchAdFramework.framework in Frameworks */,
+				3C4B6A0F249A24390082D522 /* JMLaunchAdFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 		3C4B69A42499F52D0082D522 /* jmlauchad */ = {
 			isa = PBXGroup;
 			children = (
-				3C4B6A0C249A1A950082D522 /* JMLaunchAdFramework.framework */,
+				3C4B6A0E249A24390082D522 /* JMLaunchAdFramework.framework */,
 				3C4B69A52499F52D0082D522 /* AppDelegate.h */,
 				3C4B69A62499F52D0082D522 /* AppDelegate.m */,
 				3C4B69AB2499F52D0082D522 /* ViewController.h */,
