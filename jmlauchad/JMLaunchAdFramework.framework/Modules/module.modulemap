@@ -1,0 +1,6 @@
+framework module JMLaunchAdFramework {
+  umbrella header "JMLaunchAdFramework.h"
+
+  export *
+  module * { export * }
+}
